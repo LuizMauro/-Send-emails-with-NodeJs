@@ -18,6 +18,7 @@ const transporter = nodemailer.createTransport({
     }
 });
 
+
 console.log("Esta rodando....");
 
 response.map(item => (
